@@ -26,7 +26,7 @@ $ docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 90
 
 a. Log in to http://localhost:9000 with System Administrator credentials (login=admin, password=admin).
 
-b. Crie um token para o user admin (TOKEN_DE_UM_USUARIO_DO_SONAR):  Administration > Security > Tokens
+b. Crie um token para o user admin (TOKEN_DE_UM_USUARIO_DO_SONAR):  Administration > Security > Users > Update Tokens
 
 5) Para realizar a analise de uma projeto Gradle, execute:
 
